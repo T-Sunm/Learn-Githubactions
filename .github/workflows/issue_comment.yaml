@@ -1,3 +1,11 @@
+# Thêm tên cho workflow để dễ nhận biết
+name: Create a comment on new issues
+
+# THÊM KHỐI NÀY VÀO
+on:
+  issues:
+    types: [opened]
+
 jobs:
   comment-with-action:
     runs-on: ubuntu-latest
